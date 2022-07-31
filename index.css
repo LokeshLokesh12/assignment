@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.name{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 10px;
+font-family: 'Mouse Memoirs', sans-serif;
+font-size: 90px; 
+font-weight: 200;
+}
+.about{
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.about img{
+    margin-top: 50px;
+    height: 300px;
+    width: 200px;
+    margin-left:230px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;   
+}
+.about h3{
+    margin-top: 50px;
+    font-size: 60px;
+    margin-left: 35px;
+}
+.about p{
+    margin-left: 30px;
+    font-size: 35px;
+    width: 950px;
+}
+h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-bottom: 60px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 50px;
+}
+ul{
+    display: flex   ;
+    width: 100%;
+    justify-content: center ;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+.sub_hobby{
+    display: flex;
+}
+
+.sub_hobby img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin-left: 25%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black,
+                -3px -3px  10px black;
+    margin-top: 20px;            
+    
+}
+.hobbies h2{
+    margin-left: 30%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.hobbies p{
+    margin-left: 15%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 70%;
+}
+iframe{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+.contact img{
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.contact img:hover{
+    padding: 10px;
+    filter: drop-shadow(1px 1px 5px black);
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+span{
+    font-family: 'Bebas Neue', cursive;
+}
+h3{
+    font-family: 'Russo One', sans-serif;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Russo One', sans-serif;
+}
+.hobby2 h2{
+    margin-left: 175px;
+}
